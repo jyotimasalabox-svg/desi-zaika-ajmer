@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desi Zaika (देसी जायका) | Multicuisine Restaurant & Food Delivery in Madar, Ajmer</title>
+  <meta name="description" content="Experience authentic Mutton Handi, Chicken Changezi, Nahari, Tandoori Kebabs and Veg Delicacies at Desi Zaika, Madar, Ajmer. Fast 2-hour food delivery across Ajmer with FREE delivery on orders over ₹1,000!">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&family=Yatra+One&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement-bar">
+    <div class="container marquee-content">
+      <div class="announcement-pill">
+        <i class="fa-solid fa-city text-gold"></i>
+        <span><strong>Ajmer City Exclusive:</strong> Food delivery strictly available within Ajmer city!</span>
+      </div>
+      <div class="announcement-pill">
+        <i class="fa-solid fa-gift text-gold"></i>
+        <span><strong>100% FREE Delivery</strong> on all orders of ₹1,000 or more!</span>
+      </div>
+      <div class="announcement-pill">
+        <i class="fa-solid fa-bolt text-gold"></i>
+        <span>Flat <strong>₹50 Delivery Charge</strong> on orders below ₹1,000!</span>
+      </div>
+      <div class="announcement-pill">
+        <i class="fa-solid fa-stopwatch text-gold"></i>
+        <span>Guaranteed fresh delivery <strong>within 2 hours</strong>!</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="main-header" id="navbar">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-emblem">
+          <i class="fa-solid fa-utensils"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">DESI ZAIKA</span>
+          <span class="brand-subtitle">देसी जायका • MADAR, AJMER</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#delivery-rules" class="nav-link">Delivery Policy</a>
+        <a href="#menu-section" class="nav-link">Food Menu</a>
+        <a href="#gallery-section" class="nav-link">Photo Gallery</a>
+        <a href="#about-section" class="nav-link">About Us</a>
+        <a href="#contact-section" class="nav-link">Find Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-trigger-btn" id="cartOpenBtn" aria-label="Open Shopping Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-label">My Order</span>
+          <span class="cart-badge" id="cartBadgeCount">0</span>
+          <span class="cart-header-total" id="cartHeaderTotal">₹0</span>
+        </button>
+
+        <a href="tel:911452607231" class="btn-call-header" title="Call Restaurant Directly">
+          <i class="fa-solid fa-phone"></i>
+          <span class="d-none-sm">Call Now</span>
+        </a>
+
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Nav -->
+    <div class="mobile-nav-drawer" id="mobileNavDrawer">
+      <a href="#hero" class="mobile-nav-link"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="#delivery-rules" class="mobile-nav-link"><i class="fa-solid fa-truck-ramp-box"></i> Delivery Policy (Ajmer)</a>
+      <a href="#menu-section" class="mobile-nav-link"><i class="fa-solid fa-book-open"></i> Full Menu & Order</a>
+      <a href="#gallery-section" class="mobile-nav-link"><i class="fa-solid fa-images"></i> Restaurant Gallery</a>
+      <a href="#about-section" class="mobile-nav-link"><i class="fa-solid fa-store"></i> About Restaurant</a>
+      <a href="#contact-section" class="mobile-nav-link"><i class="fa-solid fa-location-dot"></i> Google Maps & Address</a>
+      <div class="mobile-nav-cta">
+        <a href="https://maps.app.goo.gl/Bj1pRUUsHpYYUhWW7?g_st=awb" target="_blank" class="btn btn-outline-gold w-100">
+          <i class="fa-solid fa-map-location-dot"></i> Get Directions on Google Maps
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Showcase Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-tagline-badge">
+          <span class="badge-dot"></span>
+          <span>Ajmer's New Culinary Landmark in Madar</span>
+        </div>
+
+        <h1 class="hero-title">
+          Authentic Taste, <br>
+          <span class="text-gradient-gold">Royal Desi Zaika</span> in Madar, Ajmer
+        </h1>
+
+        <p class="hero-desc">
+          Indulge in slow-simmered Handi Mutton, signature Chicken Changezi, royal Mughlai Nahari, smoky charcoal tandoori kebabs, and authentic Rajasthani breads. Prepared fresh with traditional ground spices.
+        </p>
+
+        <!-- Delivery Highlights Bar -->
+        <div class="hero-delivery-pill-bar">
+          <div class="h-del-item">
+            <i class="fa-solid fa-city"></i>
+            <div>
+              <strong>Ajmer City Only</strong>
+              <span>Exclusive doorstep delivery</span>
+            </div>
+          </div>
+          <div class="h-del-item">
+            <i class="fa-solid fa-gift"></i>
+            <div>
+              <strong>FREE on ₹1,000+</strong>
+              <span>Flat ₹50 under ₹1,000</span>
+            </div>
+          </div>
+          <div class="h-del-item">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <div>
+              <strong>Within 2 Hours</strong>
+              <span>Guaranteed fresh & piping hot</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#menu-section" class="btn btn-primary btn-lg pulse-glow">
+            <i class="fa-solid fa-utensils"></i> View Menu & Order
+          </a>
+          <button class="btn btn-whatsapp btn-lg" onclick="openWhatsAppDirectOrder()">
+            <i class="fa-brands fa-whatsapp"></i> Quick WhatsApp Order
+          </button>
+          <a href="https://maps.app.goo.gl/Bj1pRUUsHpYYUhWW7?g_st=awb" target="_blank" class="btn btn-glass btn-lg">
+            <i class="fa-solid fa-location-arrow"></i> Google Maps Directions
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-media-wrapper">
+        <div class="hero-image-card">
+          <img src="assets/images/hero-entrance.jpg" alt="Desi Zaika Entrance Madar Ajmer" class="hero-main-img">
+          <div class="hero-floating-badge badge-1">
+            <i class="fa-solid fa-star text-gold"></i>
+            <div>
+              <strong>4.8 ★ Rated</strong>
+              <span>Loved by Ajmer Food Lovers</span>
+            </div>
+          </div>
+          <div class="hero-floating-badge badge-2">
+            <i class="fa-solid fa-fire text-orange"></i>
+            <div>
+              <strong>Live Tandoor & Handi</strong>
+              <span>Open Daily: 12:00 PM - 12:30 AM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Delivery Rules Banner Section -->
+  <section class="delivery-rules-section" id="delivery-rules">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-title">Know Before You Order</span>
+        <h2 class="section-title">Desi Zaika <span class="text-gold">Delivery Policy</span></h2>
+        <div class="title-ornament">❖ ❖ ❖</div>
+        <p class="section-desc">Transparent pricing and guaranteed 2-hour speed across Ajmer city for steaming hot, restaurant-quality food.</p>
+      </div>
+
+      <div class="delivery-rules-grid">
+        <div class="rule-card">
+          <div class="rule-icon-box">
+            <i class="fa-solid fa-location-crosshairs"></i>
+          </div>
+          <div class="rule-content">
+            <span class="rule-step">Pillar 01</span>
+            <h3>Delivery Area: Ajmer Only</h3>
+            <p>Our rapid delivery service operates <strong>strictly within Ajmer city limits</strong> (Madar, Kundan Nagar, Vaishali Nagar, Panchsheel, Civil Lines, Dargah Bazar, etc.).</p>
+          </div>
+        </div>
+
+        <div class="rule-card highlight-card">
+          <div class="rule-icon-box gold-icon">
+            <i class="fa-solid fa-gift"></i>
+          </div>
+          <div class="rule-content">
+            <span class="rule-step text-gold">Super Saver</span>
+            <h3>100% Free on Orders ₹1,000+</h3>
+            <p>When your food subtotal reaches <strong>₹1,000 or above</strong>, delivery charges are completely waived — <strong>₹0 Zero Delivery Fee!</strong></p>
+          </div>
+        </div>
+
+        <div class="rule-card">
+          <div class="rule-icon-box">
+            <i class="fa-solid fa-receipt"></i>
+          </div>
+          <div class="rule-content">
+            <span class="rule-step">Pillar 02</span>
+            <h3>Flat ₹50 on Orders Below ₹1,000</h3>
+            <p>For orders under ₹1,000, we charge a flat, honest delivery fee of <strong>only ₹50</strong>. No hidden container or surge fees.</p>
+          </div>
+        </div>
+
+        <div class="rule-card">
+          <div class="rule-icon-box">
+            <i class="fa-solid fa-stopwatch-20"></i>
+          </div>
+          <div class="rule-content">
+            <span class="rule-step">Pillar 03</span>
+            <h3>Guaranteed Within 2 Hours</h3>
+            <p>Every dish is cooked fresh upon order confirmation and dispatched to reach your doorstep <strong>within 2 hours or less</strong>.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Delivery Area Checker -->
+      <div class="delivery-calc-widget">
+        <div class="calc-header">
+          <i class="fa-solid fa-calculator text-gold"></i>
+          <div>
+            <h4>Ajmer Delivery Estimator & Zone Checker</h4>
+            <p>Select your Ajmer neighborhood to see estimated delivery duration</p>
+          </div>
+        </div>
+        <div class="calc-body">
+          <div class="calc-input-group">
+            <label for="ajmerAreaSelect"><i class="fa-solid fa-map-pin"></i> Select Your Ajmer Locality:</label>
+            <select id="ajmerAreaSelect" class="form-select" onchange="updateAreaDeliveryEstimate()">
+              <option value="madar">Madar (Madarpura / Vinayak Nagar) - 20 to 35 mins</option>
+              <option value="kundan_nagar">Kundan Nagar - 30 to 45 mins</option>
+              <option value="vaishali_nagar">Vaishali Nagar - 45 to 65 mins</option>
+              <option value="panchsheel">Panchsheel Nagar - 45 to 65 mins</option>
+              <option value="civil_lines">Civil Lines - 40 to 60 mins</option>
+              <option value="dargah_area">Dargah Bazar / Naya Bazar - 45 to 70 mins</option>
+              <option value="adarsh_nagar">Adarsh Nagar / Beawar Road - 50 to 75 mins</option>
+              <option value="clock_tower">Clock Tower / Ajmer Railway Station - 40 to 65 mins</option>
+              <option value="other_ajmer">Any other Ajmer city location - Guaranteed within 2 Hours</option>
+            </select>
+          </div>
+          <div class="calc-result" id="calcResultDisplay">
+            <div class="calc-status success">
+              <i class="fa-solid fa-circle-check"></i>
+              <span><strong>Delivery Available!</strong> Maximum 2 hours guaranteed arrival. FREE delivery on orders over ₹1,000!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Menu Section with Rich Food Photography -->
+  <section class="menu-section" id="menu-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-title">Explore Our Flavors</span>
+        <h2 class="section-title">The Grand <span class="text-gold">Food Menu</span></h2>
+        <div class="title-ornament">❖ ❖ ❖</div>
+        <p class="section-desc">Hand-crafted recipes from Desi Zaika's original kitchen menu. Select your preferred portion sizes and order directly to your doorstep.</p>
+      </div>
+
+      <!-- Menu Utility Toolbar -->
+      <div class="menu-controls-wrapper">
+        <div class="menu-utility-bar">
+          <div class="search-input-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="menuSearchInput" placeholder="Search dishes (e.g., Mutton Korma, Butter Chicken, Biryani, Naan...)" oninput="filterMenuItems()">
+            <button class="clear-search-btn" id="clearSearchBtn" onclick="clearMenuSearch()" style="display:none;">✕</button>
+          </div>
+
+          <div class="dietary-filter-group">
+            <button class="diet-btn active" data-diet="all" onclick="setDietFilter('all')">
+              <i class="fa-solid fa-utensils"></i> All Items
+            </button>
+            <button class="diet-btn non-veg-btn" data-diet="non-veg" onclick="setDietFilter('non-veg')">
+              <span class="diet-icon non-veg"></span> Non-Veg
+            </button>
+            <button class="diet-btn veg-btn" data-diet="veg" onclick="setDietFilter('veg')">
+              <span class="diet-icon veg"></span> Pure Veg
+            </button>
+          </div>
+
+          <button class="btn btn-outline-gold btn-sm" onclick="openOriginalMenuModal()">
+            <i class="fa-solid fa-image"></i> View Original Menu Card
+          </button>
+        </div>
+
+        <!-- Category Filter Carousel -->
+        <div class="category-tabs-container">
+          <div class="category-tabs" id="categoryTabs">
+            <button class="cat-tab active" data-cat="all" onclick="selectCategory('all')">
+              <i class="fa-solid fa-fire-burner"></i> All Categories
+            </button>
+            <button class="cat-tab" data-cat="mutton" onclick="selectCategory('mutton')">
+              <i class="fa-solid fa-drumstick-bite"></i> Mutton Royals
+            </button>
+            <button class="cat-tab" data-cat="chicken" onclick="selectCategory('chicken')">
+              <i class="fa-solid fa-bowl-food"></i> Chicken Delights
+            </button>
+            <button class="cat-tab" data-cat="dry" onclick="selectCategory('dry')">
+              <i class="fa-solid fa-fire"></i> Tandoori & Starters
+            </button>
+            <button class="cat-tab" data-cat="rolls" onclick="selectCategory('rolls')">
+              <i class="fa-solid fa-scroll"></i> Signature Rolls
+            </button>
+            <button class="cat-tab" data-cat="biryani" onclick="selectCategory('biryani')">
+              <i class="fa-solid fa-plate-wheat"></i> Dum Biryani & Rice
+            </button>
+            <button class="cat-tab" data-cat="veg" onclick="selectCategory('veg')">
+              <i class="fa-solid fa-leaf"></i> Vegetarian Specials
+            </button>
+            <button class="cat-tab" data-cat="special" onclick="selectCategory('special')">
+              <i class="fa-solid fa-crown"></i> Chef Exclusives
+            </button>
+            <button class="cat-tab" data-cat="roti" onclick="selectCategory('roti')">
+              <i class="fa-solid fa-bread-slice"></i> Breads & Baati
+            </button>
+            <button class="cat-tab" data-cat="sides" onclick="selectCategory('sides')">
+              <i class="fa-solid fa-ice-cream"></i> Salads & Drinks
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modern Dish Cards Grid (Populated dynamically with HD images) -->
+      <div class="menu-grid" id="menuItemsGrid">
+        <!-- Injected via app.js -->
+      </div>
+
+      <!-- No items found fallback -->
+      <div class="no-items-state" id="noItemsState" style="display:none;">
+        <i class="fa-solid fa-magnifying-glass-chart"></i>
+        <h3>No Dishes Found</h3>
+        <p>Try searching with another keyword or reset the category filters.</p>
+        <button class="btn btn-outline-gold" onclick="resetFilters()">Reset All Filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery Section (Real Restaurant Photos from Madar, Ajmer) -->
+  <section class="gallery-section" id="gallery-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-title">Moments at Desi Zaika</span>
+        <h2 class="section-title">Glimpse of <span class="text-gold">Our Restaurant</span></h2>
+        <div class="title-ornament">❖ ❖ ❖</div>
+        <p class="section-desc">Located near Raj Garden & Madar Railway Station, featuring open-air family dining and captivating Rajasthani desert heritage murals.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Photo 1: Main Entrance Board -->
+        <div class="gallery-item-card" onclick="openLightbox('assets/images/hero-entrance.jpg', 'Desi Zaika - Grand Entrance & Signboard, Madar Ajmer')">
+          <img src="assets/images/hero-entrance.jpg" alt="Desi Zaika Main Entrance" loading="lazy">
+          <div class="gallery-caption">
+            <span class="badge-tag">Main Gate</span>
+            <h4>Desi Zaika Multicuisine Restaurant</h4>
+            <p>Welcoming entrance with open courtyard and live kitchen</p>
+          </div>
+        </div>
+
+        <!-- Photo 2: Dining & Desert Camel Mural -->
+        <div class="gallery-item-card" onclick="openLightbox('assets/images/mural-camels.jpg', 'Hand-painted Rajasthani Desert Camel Art in Dining Hall')">
+          <img src="assets/images/mural-camels.jpg" alt="Dining Hall Camel Mural" loading="lazy">
+          <div class="gallery-caption">
+            <span class="badge-tag">Heritage Ambiance</span>
+            <h4>Royal Desert Camel Murals</h4>
+            <p>Cultural wall art elevating your dining experience</p>
+          </div>
+        </div>
+
+        <!-- Photo 3: Pushkar Fair Camel Cart Mural -->
+        <div class="gallery-item-card" onclick="openLightbox('assets/images/mural-fair.jpg', 'Fair Theme Mural with Camel Carts & Ferris Wheel')">
+          <img src="assets/images/mural-fair.jpg" alt="Pushkar Fair Theme Mural" loading="lazy">
+          <div class="gallery-caption">
+            <span class="badge-tag">Cultural Decor</span>
+            <h4>Pushkar Fair Camel Cart Wall Art</h4>
+            <p>Festive Rajasthani vibe for family gatherings</p>
+          </div>
+        </div>
+
+        <!-- Photo 4: Restaurant Counter & Beverage Chillers -->
+        <div class="gallery-item-card" onclick="openLightbox('assets/images/restaurant-front.jpg', 'Outdoor Seating, Front Counter and Beverage Chillers')">
+          <img src="assets/images/restaurant-front.jpg" alt="Front Counter and Seating" loading="lazy">
+          <div class="gallery-caption">
+            <span class="badge-tag">Dining Area</span>
+            <h4>Spacious Covered Dining Courtyard</h4>
+            <p>Breezy outdoor and indoor seating arrangements</p>
+          </div>
+        </div>
+
+        <!-- Photo 5: Original Menu Card Front -->
+        <div class="gallery-item-card" onclick="openLightbox('assets/images/menu-card-main.jpg', 'Original Printed Menu Card - Mutton, Chicken, Rolls & Veg')">
+          <img src="assets/images/menu-card-main.jpg" alt="Original Menu Card Front" loading="lazy">
+          <div class="gallery-caption">
+            <span class="badge-tag">Original Menu</span>
+            <h4>Curries, Tandoori & Specials</h4>
+            <p>Click to zoom into the original printed card</p>
+          </div>
+        </div>
+
+        <!-- Photo 6: Original Menu Card Back (Roti / Breads) -->
+        <div class="gallery-item-card" onclick="openLightbox('assets/images/menu-card-breads.jpg', 'Original Printed Menu Card - Tandoori Roti, Naan & Baati')">
+          <img src="assets/images/menu-card-breads.jpg" alt="Original Menu Card Back" loading="lazy">
+          <div class="gallery-caption">
+            <span class="badge-tag">Breads & Sides</span>
+            <h4>Rotis, Naans, Baati & Extras</h4>
+            <p>Click to zoom into the original bread section</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Restaurant Section -->
+  <section class="about-section" id="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text-col">
+          <span class="sub-title">Why Desi Zaika</span>
+          <h2 class="section-title">The True Essence of <span class="text-gold">Authentic Indian Flavors</span></h2>
+          <div class="title-ornament text-start">❖ ❖ ❖</div>
+          <p class="lead-text">
+            Situated right next to Raj Garden in Vinayak Nagar, Madar, <strong>Desi Zaika</strong> is dedicated to reviving royal Mughlai and rustic Rajasthani flavors. Our cooks believe that authentic taste comes from patience, clay-oven heat, and stone-ground spices.
+          </p>
+
+          <div class="feature-bullets">
+            <div class="f-bullet">
+              <div class="f-bullet-icon"><i class="fa-solid fa-pepper-hot"></i></div>
+              <div>
+                <h4>Slow-Cooked Potli & Handi Spices</h4>
+                <p>Our mutton and chicken curries are simmered in clay pots on low embers to infuse every morsel with deep flavor.</p>
+              </div>
+            </div>
+
+            <div class="f-bullet">
+              <div class="f-bullet-icon"><i class="fa-solid fa-users"></i></div>
+              <div>
+                <h4>Family Dining & Event Catering</h4>
+                <p>Enjoy a comfortable dining environment with family seating or order bulk party packs for celebrations.</p>
+              </div>
+            </div>
+
+            <div class="f-bullet">
+              <div class="f-bullet-icon"><i class="fa-solid fa-moped"></i></div>
+              <div>
+                <h4>Fast Doorstep Delivery in Ajmer</h4>
+                <p>Steaming hot food delivered within 2 hours. Orders of ₹1,000 and above enjoy <strong>100% Free Delivery</strong>.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cta-row">
+            <button class="btn btn-primary" onclick="openReservationModal()">
+              <i class="fa-solid fa-calendar-check"></i> Book Table / Party
+            </button>
+            <a href="tel:911452607231" class="btn btn-outline-gold">
+              <i class="fa-solid fa-phone-volume"></i> Call Restaurant
+            </a>
+          </div>
+        </div>
+
+        <div class="about-image-col">
+          <div class="about-stack">
+            <img src="assets/images/restaurant-front.jpg" alt="Desi Zaika Ambience" class="about-img-main">
+            <div class="about-experience-badge">
+              <span class="badge-number">12 PM - 12:30 AM</span>
+              <span class="badge-text">Serving 7 Days a Week</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Google Maps Section -->
+  <section class="contact-section" id="contact-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-title">Visit Us or Connect</span>
+        <h2 class="section-title">Our Location & <span class="text-gold">Google Maps</span></h2>
+        <div class="title-ornament">❖ ❖ ❖</div>
+        <p class="section-desc">Conveniently situated near Madar Railway Station, right opposite Raj Garden, Ajmer.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Restaurant Address</h4>
+              <p>Shop No. 2, Railway Station Madar Road, Near Raj Garden, Vinayak Nagar, Madarpura, Ajmer, Rajasthan - 305007</p>
+              <a href="https://maps.app.goo.gl/Bj1pRUUsHpYYUhWW7?g_st=awb" target="_blank" class="link-gold">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Google Maps App
+              </a>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4>Operating Hours</h4>
+              <p>Monday to Sunday: 12:00 PM to 12:30 AM (Midnight)</p>
+              <span class="open-status-badge"><i class="fa-solid fa-circle-dot"></i> Open Daily for Dine-in & Delivery</span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-motorcycle"></i></div>
+            <div>
+              <h4>Home Delivery Service</h4>
+              <p>Delivery strictly within Ajmer city. Free over ₹1,000, otherwise flat ₹50. Arrives hot within 2 hours.</p>
+            </div>
+          </div>
+
+          <div class="contact-action-btns">
+            <a href="https://maps.app.goo.gl/Bj1pRUUsHpYYUhWW7?g_st=awb" target="_blank" class="btn btn-primary w-100">
+              <i class="fa-solid fa-diamond-turn-right"></i> Get Driving Directions
+            </a>
+            <button class="btn btn-whatsapp w-100" onclick="openWhatsAppDirectOrder()">
+              <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </button>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed -->
+        <div class="contact-map-wrapper">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14285.342686884638!2d74.67146877478052!3d26.459149800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be754cdc606bf%3A0x5d1516abeae76ee!2sDesi%20Zayka%2C%20Vinayak%20Nagar%2C%20near%20Raj%20Garden%2C%20Madarpura%2C%20Ajmer%2C%20Rajasthan%20305001!5e0!3m2!1sen!2sin!4v1727515000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="100%" 
+            style="border:0; border-radius: 20px; min-height: 440px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Desi Zaika Madar Ajmer Location Map">
+          </iframe>
+          <div class="map-overlay-badge">
+            <i class="fa-solid fa-utensils"></i>
+            <span>Desi Zaika • Madar, Ajmer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-col">
+        <div class="footer-logo">
+          <span class="brand-title">DESI ZAIKA</span>
+          <span class="brand-subtitle">MULTICUISINE RESTAURANT</span>
+        </div>
+        <p>Ajmer's premier destination for authentic slow-cooked curries, tandoori grills, and traditional breads in Madarpura.</p>
+        <div class="footer-socials">
+          <a href="https://maps.app.goo.gl/Bj1pRUUsHpYYUhWW7?g_st=awb" target="_blank" title="Google Maps"><i class="fa-solid fa-location-dot"></i></a>
+          <a href="tel:911452607231" title="Call Us"><i class="fa-solid fa-phone"></i></a>
+          <a href="javascript:void(0)" onclick="openWhatsAppDirectOrder()" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col links-col">
+        <h4>Quick Navigation</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#delivery-rules">Delivery Rules (Ajmer)</a></li>
+          <li><a href="#menu-section">Full Food Menu</a></li>
+          <li><a href="#gallery-section">Restaurant Gallery</a></li>
+          <li><a href="#contact-section">Location on Map</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col specials-col">
+        <h4>Signature Dishes</h4>
+        <ul>
+          <li>Mutton Korma & Handi Mutton</li>
+          <li>Chicken Changezi & Butter Chicken</li>
+          <li>Mutton Nahari Desi Ghee</li>
+          <li>Chicken Seekh & Malai Tikka</li>
+          <li>Paneer Butter Masala & Dal Fry</li>
+          <li>Desi Zaika Special Shahi Kheer</li>
+        </ul>
+      </div>
+
+      <div class="footer-col policy-col">
+        <h4>Delivery Summary</h4>
+        <div class="footer-policy-box">
+          <p><i class="fa-solid fa-circle-check text-gold"></i> Exclusively in Ajmer City</p>
+          <p><i class="fa-solid fa-circle-check text-gold"></i> Free Delivery on ₹1,000+</p>
+          <p><i class="fa-solid fa-circle-check text-gold"></i> Flat ₹50 for orders under ₹1,000</p>
+          <p><i class="fa-solid fa-circle-check text-gold"></i> Delivered hot within 2 Hours</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>© 2026 Desi Zaika Restaurant, Madar, Ajmer. All rights reserved.</p>
+        <p class="tagline">"The Pride of Ajmer, The Taste of Desi Heritage"</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Cart Bar -->
+  <div class="floating-mobile-cart-bar" id="floatingCartBar" style="display:none;">
+    <div class="floating-cart-inner" onclick="openCartDrawer()">
+      <div class="floating-cart-left">
+        <span class="floating-cart-count" id="floatingCartCount">0 items</span>
+        <span class="floating-cart-total" id="floatingCartTotal">₹0</span>
+      </div>
+      <div class="floating-cart-right">
+        <span>View Cart & Order</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide-out Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay" onclick="closeCartDrawer()"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart Drawer">
+    <div class="cart-drawer-header">
+      <div class="cart-title">
+        <i class="fa-solid fa-bag-shopping text-gold"></i>
+        <h3>Your Food Order</h3>
+      </div>
+      <button class="cart-close-btn" onclick="closeCartDrawer()" aria-label="Close Cart">✕</button>
+    </div>
+
+    <!-- Free Delivery Tracker -->
+    <div class="free-delivery-tracker" id="freeDeliveryTracker">
+      <div class="tracker-message" id="trackerMessage">
+        <!-- Injected via JavaScript -->
+      </div>
+      <div class="tracker-bar-bg">
+        <div class="tracker-bar-fill" id="trackerBarFill" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Cart Items Scroll List -->
+    <div class="cart-items-container" id="cartItemsList">
+      <!-- Injected via JavaScript -->
+    </div>
+
+    <!-- Empty Cart State -->
+    <div class="cart-empty-view" id="cartEmptyView" style="display:none;">
+      <i class="fa-solid fa-utensils"></i>
+      <h4>Your Cart is Empty!</h4>
+      <p>Browse our menu and add your favorite mutton, chicken or veg dishes.</p>
+      <button class="btn btn-outline-gold" onclick="closeCartDrawer(); window.location.href='#menu-section';">
+        Browse Menu
+      </button>
+    </div>
+
+    <!-- Cart Footer with Bill Breakdown & WhatsApp Checkout -->
+    <div class="cart-drawer-footer" id="cartFooter">
+      <div class="cart-bill-summary">
+        <div class="bill-row">
+          <span>Items Subtotal</span>
+          <span id="billSubtotal">₹0</span>
+        </div>
+        <div class="bill-row delivery-row">
+          <span>
+            Ajmer Delivery Charge
+            <i class="fa-solid fa-circle-info" title="Free on ₹1,000+ orders, otherwise flat ₹50"></i>
+          </span>
+          <span id="billDeliveryFee" class="text-gold">₹50</span>
+        </div>
+        <div class="bill-row total-row">
+          <span>Grand Total</span>
+          <span id="billGrandTotal" class="grand-price">₹0</span>
+        </div>
+      </div>
+
+      <!-- Customer Checkout Details -->
+      <form class="cart-checkout-form" id="checkoutForm" onsubmit="event.preventDefault(); submitWhatsAppOrder();">
+        <div class="form-group">
+          <label for="custName"><i class="fa-solid fa-user"></i> Your Full Name:</label>
+          <input type="text" id="custName" class="form-control" placeholder="e.g. Rahul Sharma / Sameer Khan" required>
+        </div>
+
+        <div class="form-group">
+          <label for="custPhone"><i class="fa-solid fa-phone"></i> Mobile Number:</label>
+          <input type="tel" id="custPhone" class="form-control" placeholder="e.g. 98290XXXXX" required pattern="[0-9]{10}">
+        </div>
+
+        <div class="form-group">
+          <label for="custArea"><i class="fa-solid fa-map-location-dot"></i> Select Ajmer Locality:</label>
+          <select id="custArea" class="form-control" required>
+            <option value="Madar (Vinayak Nagar / Station)">Madar (Vinayak Nagar / Station)</option>
+            <option value="Kundan Nagar">Kundan Nagar</option>
+            <option value="Vaishali Nagar">Vaishali Nagar</option>
+            <option value="Panchsheel Nagar">Panchsheel Nagar</option>
+            <option value="Civil Lines">Civil Lines</option>
+            <option value="Dargah Bazar / Naya Bazar">Dargah Bazar / Naya Bazar</option>
+            <option value="Adarsh Nagar / Beawar Road">Adarsh Nagar / Beawar Road</option>
+            <option value="Clock Tower / Station Area">Clock Tower / Station Area</option>
+            <option value="Other Ajmer Area">Other Ajmer Area (Specify below)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="custAddress"><i class="fa-solid fa-house"></i> Complete Delivery Address (Ajmer):</label>
+          <textarea id="custAddress" class="form-control" rows="2" placeholder="House / Flat No., Street, Landmark in Ajmer..." required></textarea>
+        </div>
+
+        <div class="delivery-guarantee-note">
+          <i class="fa-solid fa-shield-halved text-gold"></i>
+          <span>Food delivery strictly within Ajmer city. Guaranteed fresh arrival within 2 hours!</span>
+        </div>
+
+        <button type="submit" class="btn btn-whatsapp btn-block checkout-submit-btn w-100">
+          <i class="fa-brands fa-whatsapp"></i> Send Order via WhatsApp
+        </button>
+      </form>
+    </div>
+  </aside>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightboxModal" onclick="closeLightbox(event)">
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeLightboxDirect()">✕</button>
+      <img src="" alt="Full view" id="lightboxImg">
+      <div class="lightbox-title" id="lightboxTitle"></div>
+    </div>
+  </div>
+
+  <!-- Original Menu Cards Modal -->
+  <div class="menu-cards-modal" id="menuCardsModal">
+    <div class="menu-cards-modal-content">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-book-open text-gold"></i> Desi Zaika - Original Printed Menu Cards</h3>
+        <button class="modal-close-btn" onclick="closeOriginalMenuModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">Inspect the actual printed menu cards photographed directly at the restaurant:</p>
+        <div class="menu-card-tabs">
+          <button class="card-tab active" onclick="switchMenuCard('main')">Page 1: Mutton, Chicken, Starters, Veg</button>
+          <button class="card-tab" onclick="switchMenuCard('breads')">Page 2: Roti, Naan, Baati & Drinks</button>
+        </div>
+        <div class="menu-card-image-box">
+          <img src="assets/images/menu-card-main.jpg" alt="Original Menu Card Page 1" id="activeMenuCardImg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Table Reservation Modal -->
+  <div class="reservation-modal" id="reservationModal">
+    <div class="reservation-modal-content">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-chair text-gold"></i> Table & Party Reservation</h3>
+        <button class="modal-close-btn" onclick="closeReservationModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">Reserve a table or plan a birthday / family party at Desi Zaika Madar, Ajmer:</p>
+        <form id="reservationForm" onsubmit="event.preventDefault(); submitReservationWhatsApp();">
+          <div class="form-group">
+            <label>Your Name:</label>
+            <input type="text" id="resName" class="form-control" placeholder="e.g. Vikas Kumar" required>
+          </div>
+          <div class="form-group">
+            <label>Mobile Number:</label>
+            <input type="tel" id="resPhone" class="form-control" placeholder="e.g. 98290XXXXX" required pattern="[0-9]{10}">
+          </div>
+          <div class="form-row-2">
+            <div class="form-group">
+              <label>Date:</label>
+              <input type="date" id="resDate" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label>Time:</label>
+              <input type="time" id="resTime" class="form-control" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Number of Guests:</label>
+            <input type="number" id="resGuests" class="form-control" min="1" max="50" value="4" required>
+          </div>
+          <div class="form-group">
+            <label>Special Requests or Pre-Ordered Dishes:</label>
+            <textarea id="resNotes" class="form-control" rows="2" placeholder="e.g. Keep 2 Handi Muttons ready, family corner seating..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">
+            <i class="fa-brands fa-whatsapp"></i> Confirm Booking on WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
